@@ -1,0 +1,40 @@
+
+#board{
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row>div{
+    float: left;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.row:hover{
+    cursor: pointer;
+}
+
+/* px measurements below are altered from the covalence page instructions in order to make the board visible on the page */
+.row{
+    clear: both;
+    margin: 0 auto;
+    width: 308px;
+    text-align: center;
+}
+
+.top {
+    border-bottom: 4px solid  #C5D86D;
+}
+
+.left {
+    border-right: 4px solid #E4572E;
+}
+
+.right {
+    border-left: 4px solid #40BCD8;
+}
+
+.bottom {
+    border-top: 4px solid #9368B7;
+}
