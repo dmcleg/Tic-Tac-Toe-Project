@@ -11,7 +11,7 @@
 
 <body>
     <div id="board">
-        <!--Headline at the top of the pageB-->
+        <!--Headline at the top of the page-->
         <h1>Tic Tac Toe</h1>
 
         <!--Section containing the visible lines-->
@@ -33,8 +33,14 @@
             <div class="bottom right"></div>
         </div>
 
+        <button type="button" onClick="refreshPage()">Play again?</button>
     </div>
-
+<script src="app.js"></script>
+<script>
+    function refreshPage(){
+        window.location.reload();
+    } 
+    </script>
 </body>
 
 </html>
